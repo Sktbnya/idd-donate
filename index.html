@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Поддержать IDD — единая страница с удобными способами доната.">
+  <meta name="theme-color" content="#141b19">
+  <link rel="canonical" href="https://sktbnya.github.io/idd-donate/">
+  <title>Поддержать IDD</title>
+  <link rel="icon" href="./heart.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./config.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#ways">К способам поддержки</a>
+  <div class="shell">
+    <header><a class="brand" href="./" aria-label="IDD — главная">IDD<span> / support</span></a><a class="github" href="https://github.com/Sktbnya" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></header>
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <div class="eyebrow"><span></span> СПАСИБО ЗА ВАШУ ПОДДЕРЖКУ</div>
+        <h1 id="title">Небольшой донат.<br><em>Большая поддержка.</em></h1>
+        <p class="intro">Если мои проекты вам полезны, здесь можно сказать спасибо.<br class="desktop"> Выберите удобный сервис и поддержите IDD.</p>
+        <div class="signature"><div class="avatar" aria-hidden="true">ID<span>D</span></div><div><strong>IDD</strong><span>Автор · <a href="https://github.com/Sktbnya" target="_blank" rel="noopener noreferrer">@Sktbnya</a></span></div></div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit"></div><div class="heart">♥</div><span class="spark one">+</span><span class="spark two">+</span><span class="note">ваше спасибо<br>имеет значение</span></div>
+      </section>
+      <section id="ways" aria-labelledby="ways-title">
+        <div class="section-heading"><h2 id="ways-title">Выберите способ поддержки</h2><span>Одна страница. Разные способы.</span></div>
+        <div id="notice" class="notice" role="status">Страница готовится к запуску. Приём донатов пока не подключён.</div>
+        <div id="services" class="services"></div>
+        <noscript><p class="notice">JavaScript отключён, поэтому список способов поддержки не отображается. Вы можете открыть проверенную форму Donate.Stream: <a href="https://donate.stream/idd-sktbnya">Поддержать IDD</a>.</p></noscript>
+      </section>
+      <section class="bottom-note"><span class="small-heart" aria-hidden="true">♡</span><div><h2>Спасибо, что вы рядом.</h2><p>Поддержка добровольная. Даже простое «спасибо» приятно.</p></div></section>
+      <details class="faq"><summary>Как проходит донат?</summary><p>Когда способ подключён, кнопка откроет личную страницу IDD в выбранном сервисе. Там вы укажете сумму, увидите условия и подтвердите платёж. Эта страница не запрашивает данные вашей карты.</p></details>
+    </main>
+    <footer><span>IDD <span aria-hidden="true">·</span> Сделано с благодарностью</span><button id="copy" type="button">Скопировать ссылку <span aria-hidden="true">↗</span></button><span id="copy-status" class="sr-only" role="status"></span></footer>
+  </div>
+</body>
+</html>
